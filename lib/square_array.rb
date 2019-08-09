@@ -1,7 +1,7 @@
-def square_array(array)
-  while []!=0
-    puts  array * array
-    end
+counter = 0
+array = [1,3,9]
+ 
+while array[counter] do
+  puts array[counter]**2
+  counter += 1
 end
-square_array([1,3,9])
-
